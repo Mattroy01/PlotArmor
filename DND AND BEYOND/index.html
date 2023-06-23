@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Please Work</title>
+        <link rel="stylesheet" href="app.css"/>
+    </head>
+    <body>
+        <section id="userInput" class="userSec">
+            <div class="control">
+                <label>First Name</label>
+                <input id="txtFname" type="text" value="" class="txtbox" />
+            </div>
+            <div class="control">
+                <label>Last Name</label>
+                <input id="txtLname" type="text" value="" class="txtbox" />
+            </div>
+            <div class="control">
+                <button onclick="getUserData();" class="btn">Submit</button>
+            </div>
+        </section>
+        <section id="userOutput" class="userSec">
+            User Details
+            <hr/>
+            <p id="pUserName"></p>
+
+            <button onclick="goHome();" class="btn">Home</button>
+        </section>
+        <script src="app.js"></script>
+    </body>
+</html>
